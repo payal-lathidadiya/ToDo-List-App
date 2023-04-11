@@ -12,8 +12,9 @@
 
 .NewTodoForm input {
   flex-grow: 1;
+  border-radius: 10px;
   border: none;
-  background: #f7f1f1;
+  background: #283245;
   padding: 0 1.5em;
   font-size: initial;
 }
@@ -21,7 +22,8 @@
 .NewTodoForm button {
   padding: 0 1.3rem;
   border: none;
-  background: #ff6666;
+  background: #263861;
+  border-radius: 10px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -32,7 +34,7 @@
 }
 
 .NewTodoForm button:hover {
-  background: #ff5e5e;
+  background: #244da4;
 }
 
 .NewTodoForm input,
