@@ -61,6 +61,7 @@
 }
 
 .Todo-edit-form input {
+  border-radius: 10px;
   flex-grow: 1;
   border: none;
   background: #f7f1f1;
@@ -71,18 +72,19 @@
 .Todo-edit-form button {
   padding: 0 1.3rem;
   border: none;
-  background: #ff6666;
+  background: #536282;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
   margin-left: 5px;
   cursor: pointer;
   transform: background 0.2s ease-out;
 }
 
 .Todo-edit-form button:hover {
-  background: #ff5e5e;
+  background: #3b5793;
 }
 
 .Todo-edit-form input,
